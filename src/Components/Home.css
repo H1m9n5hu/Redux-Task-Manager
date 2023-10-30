@@ -1,0 +1,108 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 48%;
+}
+
+.title {
+    margin: 80px 0 40px 7%;
+    font-family: 'SupernaturalKnight', serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.inputField {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 550px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 0 0 17%;
+}
+
+.inputField::placeholder {
+    font-weight: bold;
+    color: rgb(79, 74, 74);
+    font-size: 20px;
+}
+
+.inputField:hover {
+    border: 2px solid black;
+}
+
+.addBtn {
+    margin: 0 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    border: 2px solid black;
+}
+
+.tasksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.content {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px 0 0 0;
+    padding: 20px;
+    list-style: none;
+}
+
+.deleteAllBtn {
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.deleteAllBtn:hover {
+    border: 2px solid black;
+}
+
+i {
+    cursor: pointer;
+}
+
+.textContainer {
+    width: 380px;
+    margin-right: 20px;
+    overflow-wrap: break-word; 
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+
+span {
+    width: 28px;
+    height: 28px;
+}

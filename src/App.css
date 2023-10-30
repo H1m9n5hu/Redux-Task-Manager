@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url('./Components/content-pixie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Croissant One', cursive;
+}
